@@ -30,9 +30,8 @@ public class InitiateDriver {
 			driver = new ChromeDriver();		//<--------------------Browser will open
 		}
 			
+		driver.get(PropertyReader.applicationConfigReader("Application_URL")); //<--------------------URL will be launched
 		driver.manage().window().maximize();
-		driver.get("https://www.facebook.com/"); 	//<--------------------URL will be launched		
-		driver.get(PropertyReader.applicationConfigReader("Application_URL"));
 	}
 	
 	@AfterMethod

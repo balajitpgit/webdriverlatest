@@ -12,12 +12,12 @@ public class LoginPage extends InitiateDriver {
 	@FindBy(xpath="//input[@name='email']") WebElement usernameTextBox;
 	@FindBy(xpath="//input[@name='pass']") WebElement passwordTextBox;
 	
-	public void enterUserName() {
-		usernameTextBox.sendKeys("Pranav");
+	public void enterUserName(String user) {
+		usernameTextBox.sendKeys(user);
 	}
 	
-	public void enterPassword() {
-		passwordTextBox.sendKeys("Pass1");
+	public void enterPassword(String pass) {
+		passwordTextBox.sendKeys(pass);
 
 	}
 

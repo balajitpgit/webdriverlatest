@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="69377" started-at="2020-08-15T14:57:50 IST" finished-at="2020-08-15T14:58:59 IST">
+  <suite name="Default suite" duration-ms="57554" started-at="2020-08-20T21:02:23 IST" finished-at="2020-08-20T21:03:21 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="69377" started-at="2020-08-15T14:57:50 IST" finished-at="2020-08-15T14:58:59 IST">
+    <test name="Default test" duration-ms="57554" started-at="2020-08-20T21:02:23 IST" finished-at="2020-08-20T21:03:21 IST">
       <class name="org.web.automation.testcases.TC_002_DataProvider">
-        <test-method status="PASS" signature="startBrowser()[pri:0, instance:org.web.automation.testcases.TC_002_DataProvider@17579e0f]" name="startBrowser" is-config="true" duration-ms="24434" started-at="2020-08-15T14:57:55 IST" finished-at="2020-08-15T14:58:19 IST">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:org.web.automation.testcases.TC_002_DataProvider@17579e0f]" name="startBrowser" is-config="true" duration-ms="19555" started-at="2020-08-20T21:02:26 IST" finished-at="2020-08-20T21:02:45 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method status="PASS" signature="tc_002(java.lang.String, java.lang.String)[pri:0, instance:org.web.automation.testcases.TC_002_DataProvider@17579e0f]" name="tc_002" duration-ms="610" started-at="2020-08-15T14:58:19 IST" data-provider="Excel" finished-at="2020-08-15T14:58:20 IST">
+        <test-method status="PASS" signature="tc_002(java.lang.String, java.lang.String)[pri:0, instance:org.web.automation.testcases.TC_002_DataProvider@17579e0f]" name="tc_002" duration-ms="961" started-at="2020-08-20T21:02:45 IST" data-provider="Excel" finished-at="2020-08-20T21:02:46 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[name1]]>
+                <![CDATA[xxxx]]>
               </value>
             </param>
             <param index="1">
@@ -27,19 +27,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_002 -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.web.automation.testcases.TC_002_DataProvider@17579e0f]" name="closeBrowser" is-config="true" duration-ms="1434" started-at="2020-08-15T14:58:20 IST" finished-at="2020-08-15T14:58:21 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.web.automation.testcases.TC_002_DataProvider@17579e0f]" name="closeBrowser" is-config="true" duration-ms="1381" started-at="2020-08-20T21:02:46 IST" finished-at="2020-08-20T21:02:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="startBrowser()[pri:0, instance:org.web.automation.testcases.TC_002_DataProvider@17579e0f]" name="startBrowser" is-config="true" duration-ms="18686" started-at="2020-08-15T14:58:21 IST" finished-at="2020-08-15T14:58:40 IST">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:org.web.automation.testcases.TC_002_DataProvider@17579e0f]" name="startBrowser" is-config="true" duration-ms="14080" started-at="2020-08-20T21:02:48 IST" finished-at="2020-08-20T21:03:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method status="PASS" signature="tc_002(java.lang.String, java.lang.String)[pri:0, instance:org.web.automation.testcases.TC_002_DataProvider@17579e0f]" name="tc_002" duration-ms="444" started-at="2020-08-15T14:58:40 IST" data-provider="Excel" finished-at="2020-08-15T14:58:40 IST">
+        <test-method status="PASS" signature="tc_002(java.lang.String, java.lang.String)[pri:0, instance:org.web.automation.testcases.TC_002_DataProvider@17579e0f]" name="tc_002" duration-ms="1200" started-at="2020-08-20T21:03:02 IST" data-provider="Excel" finished-at="2020-08-20T21:03:03 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[name2]]>
+                <![CDATA[yyyy]]>
               </value>
             </param>
             <param index="1">
@@ -51,19 +51,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_002 -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.web.automation.testcases.TC_002_DataProvider@17579e0f]" name="closeBrowser" is-config="true" duration-ms="1461" started-at="2020-08-15T14:58:40 IST" finished-at="2020-08-15T14:58:42 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.web.automation.testcases.TC_002_DataProvider@17579e0f]" name="closeBrowser" is-config="true" duration-ms="1909" started-at="2020-08-20T21:03:03 IST" finished-at="2020-08-20T21:03:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="startBrowser()[pri:0, instance:org.web.automation.testcases.TC_002_DataProvider@17579e0f]" name="startBrowser" is-config="true" duration-ms="14727" started-at="2020-08-15T14:58:42 IST" finished-at="2020-08-15T14:58:56 IST">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:org.web.automation.testcases.TC_002_DataProvider@17579e0f]" name="startBrowser" is-config="true" duration-ms="12545" started-at="2020-08-20T21:03:05 IST" finished-at="2020-08-20T21:03:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method status="PASS" signature="tc_002(java.lang.String, java.lang.String)[pri:0, instance:org.web.automation.testcases.TC_002_DataProvider@17579e0f]" name="tc_002" duration-ms="1073" started-at="2020-08-15T14:58:56 IST" data-provider="Excel" finished-at="2020-08-15T14:58:58 IST">
+        <test-method status="PASS" signature="tc_002(java.lang.String, java.lang.String)[pri:0, instance:org.web.automation.testcases.TC_002_DataProvider@17579e0f]" name="tc_002" duration-ms="1254" started-at="2020-08-20T21:03:17 IST" data-provider="Excel" finished-at="2020-08-20T21:03:19 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[name3]]>
+                <![CDATA[zzzz]]>
               </value>
             </param>
             <param index="1">
@@ -75,7 +75,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_002 -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.web.automation.testcases.TC_002_DataProvider@17579e0f]" name="closeBrowser" is-config="true" duration-ms="1783" started-at="2020-08-15T14:58:58 IST" finished-at="2020-08-15T14:58:59 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.web.automation.testcases.TC_002_DataProvider@17579e0f]" name="closeBrowser" is-config="true" duration-ms="2424" started-at="2020-08-20T21:03:19 IST" finished-at="2020-08-20T21:03:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

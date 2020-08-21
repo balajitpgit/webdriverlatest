@@ -1,6 +1,7 @@
 package org.web.automation.testcases;
 
 import java.io.FileInputStream;
+import java.io.IOException;
 
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
@@ -10,16 +11,18 @@ import org.openqa.selenium.By;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import org.web.automation.base.InitiateDriver;
+import org.web.automation.library.CaptureScreenshot;
+import org.web.automation.library.PropertyReader;
 
 public class TC_002_DataProvider extends InitiateDriver {
 	
 @Test(dataProvider="Excel")
-private void tc_002(String User, String Pass)   {
+private void tc_002(String User, String Pass) throws IOException   {
 	
-	driver.findElement(By.xpath("//input[@name='email']")).sendKeys(User);
-	driver.findElement(By.xpath("//input[@name='pass']")).sendKeys(Pass);
+	driver.findElement(By.xpath(PropertyReader.elementConfigReader("login_page_email_xpath"))).sendKeys(User);
+	driver.findElement(By.xpath(PropertyReader.elementConfigReader("login_page_pass_xpath"))).sendKeys(Pass);
+	CaptureScreenshot.takeScreenshot(driver);
 }
-
 
 @DataProvider(name="Excel") // <-----Data driven using input from Excel sheet
 public Object[][] testDataGenerator1() throws Exception
